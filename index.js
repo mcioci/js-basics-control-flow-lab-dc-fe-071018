@@ -39,3 +39,5 @@ switch (tip) {
 }
 
 }
+
+switchOnCharmFromTip("generous")
