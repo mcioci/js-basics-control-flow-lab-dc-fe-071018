@@ -13,3 +13,11 @@ function scuberGreetingForFeet (distance) {
 }
 
 let response = scuberGreetingForFeet (2001);
+
+function ternaryCheckCity () {
+  console.log("== ternaryCheckCity ==");
+  if (city = NYC)
+    return "Sounds good.";
+}
+
+ternaryCheckCity ("NYC");
