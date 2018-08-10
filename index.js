@@ -3,7 +3,7 @@ function scuberGreetingForFeet (distance) {
   console.log("== scuberGreetingForFeet ==");
   if (distance <= 400) {
     //we haven't defined what distance is at this point!!
-    return = 'This one is on me!';
+    return = "This one is on me!";
   }
 
 }
