@@ -16,8 +16,12 @@ let response = scuberGreetingForFeet (2001);
 
 function ternaryCheckCity (destination) {
   console.log("== ternaryCheckCity ==");
-  if (city = NYC)
+  if (destination === NYC) {
     return "Ok, sounds good.";
+  } else {
+    return 'No go.';
+  }
+
 }
 
 ternaryCheckCity ("NYC");
